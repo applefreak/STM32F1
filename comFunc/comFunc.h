@@ -8,3 +8,4 @@
 void initToggle(void);
 void PB10Toggle(void);
 void PB11Toggle(void);
+void Delay(uint32_t nCount);

@@ -63,3 +63,16 @@ void PB11Toggle(void)
 		GPIO_SetBits(GPIOB, GPIO_Pin_11);
 	}
 }
+
+/* Private functions ---------------------------------------------------------*/
+/*******************************************************************************
+* Function Name  : Delay
+* Description    : Inserts a delay time.
+* Input          : nCount: specifies the delay time length.
+* Output         : None
+* Return         : None
+*******************************************************************************/
+void Delay(uint32_t nCount)
+{
+  for(; nCount != 0; nCount--);
+}
